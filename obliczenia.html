@@ -15,21 +15,28 @@
             <div class="first">
                 <a href="stacja.html"><img src="img/home.png" alt="DOM"></a>
                 <a href="obliczenia.html"><img src="img/znak.png" alt="Znak"></a>
-                <a href="kwerendy.txt" download>Pobierz dokumenty</a>
+                <a href="kwerendy.txt" download class="a">Pobierz dokumenty</a>
             </div>
             <div class="second">
                 <h2>Orientacyjny koszt paliwa</h2>
-
                 <p>Rodzaj paliwa (1 benzyna, 2-olej napędowy)</p>
-                <input type="number" >
+                <input type="number" id="type">
+                <p>Ile litrow</p>
+                <input type="number" id="count">
+                <br>
+                <button type="button" onclick="calculate()">Oblicz</button>
+
+
+                <p id="result"></p>
             </div>
         </div>
         <div class="right">
-            <img src="img/samochod.jpg" alt="Sum"> 
+            <img src="img/samochod.png" alt="Samochod"> 
         </div>
     </div>
     <div class="footer">
         <p>Stronę opracował: xyz</p>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

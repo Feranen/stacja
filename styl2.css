@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Cambria;
-    text-align: center;
+
 }
 
 .banner, .footer {
@@ -10,7 +10,7 @@
     color: white;
     padding: 5px;
     font-size: 150%;
-
+    text-align: center;
 }
 
 .menu {
@@ -28,6 +28,10 @@
     
 }
 
+.a {
+    
+}
+
 .first {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -41,6 +45,8 @@
 .second {
     margin-left: 10px;
     height: 300px;
+
+    
 }
 
 .right {
@@ -52,27 +58,23 @@
     justify-content: center;
 }
 
-img {
-
+img:hover {
+    border: dotted 1px yellowgreen;
 }
 
 a {
-    margin: 10px;
+    margin: 0 50px 0 50px;
 }
 
 table {
-    border-collapse: collapse;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    border: 1px solid olivedrab; 
 }
 
 th, td {
-    border: 1px solid #4FB3BF; 
+    border: 1px solid olivedrab; 
     padding: 8px;
     margin: 4px;
-}
-
-tr:hover {
-    background-color: #4FB3BF;
 }
 
